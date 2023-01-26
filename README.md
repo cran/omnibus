@@ -1,19 +1,36 @@
 # omnibus
-Utility functions for the 99%.
 
-To install `omnibus` do the following:
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/adamlilith/omnibus/workflows/R-CMD-check/badge.svg)](https://github.com/adamlilith/omnibus/actions)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![cran version](https://www.r-pkg.org/badges/version/omnibus)](https://cran.r-project.org/package=omnibus)
+
+<!-- badges: end -->
+
+
+R Utility Functions for the 99%
+
+<img align="right" src="omnibus.png" height="223"/>
+
+An assortment of helper functions for managing data (e.g., rotating values in matrices by a user-defined angle, switching from row- to column-indexing), dates (e.g., intuiting year from messy date strings), handling missing values (e.g., removing elements/rows across multiple vectors or matrices if any have an NA), and text (e.g., flushing reports to the console in real-time).
+
+## Installation ##
+As of version 1.1.2, `omnibus` is on CRAN! You can install the latest CRAN-stable version the normal way you install packages from CRAN, or the development version by using:
 
 `remotes::install_github('adamlilith/omnibus', dependencies=TRUE)`
 
-NB: If for some reason these commands do not work, you can install the package(s) by downloading the latest zip/tar file from the `zipTarFiles` directory and installing the package(s) manually.
+You may need to install the `remotes` package first.
 
 ## Data manipulation ##
 * `bracket`: Find values that bracket a given number.
 * `combineDf`: Combine data frames with different schema.
 * `corner`: Corner of a matrix or data frame.
 * `cull`: Force vectors or matrices/data frames to have the same length or number of rows.
+* `insert`: Insert values into a vector.
 * `insertCol` and `insertRow`: Insert column(s)/row(s) in a matrix or data frame.
 * `mergeLists`: Merge lists.
+* 'renumSeq': Renumber a sequence.
 * `maxRuns`: Maximum number of continuous "runs" of values meeting a particular condition.
 * `mirror`: Flip an object left-right (or up-down).
 * `mmode`: Modal value(s).
