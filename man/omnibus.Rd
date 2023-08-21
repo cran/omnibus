@@ -3,6 +3,7 @@
 \docType{package}
 \name{omnibus}
 \alias{omnibus}
+\alias{omnibus-package}
 \title{omnibus: Fantabulous helper functions}
 \description{
 This package contains a set of helper functions.
@@ -22,6 +23,7 @@ Create an issue on \href{https://github.com/adamlilith/omnibus/issues}{GitHub}.
 		\code{\link{mirror}}: Flip an object left-right (or up-down). \cr
 		\code{\link{mmode}}: Modal value(s). \cr
 		\code{\link{mergeLists}}: Merge lists. \cr
+		\code{\link{notIn}} and \code{\link[omnibus:notIn]{\%notin\%}}: Opposite of \code{\%in\%}. \cr
 		\code{\link{renumSeq}}: Renumber a sequence. \cr
 		\code{\link{rotateMatrix}}: Rotate a matrix. \cr
 		\code{\link{roundTo}}: Rounds a value to the nearest target value. \cr
@@ -77,6 +79,15 @@ Create an issue on \href{https://github.com/adamlilith/omnibus/issues}{GitHub}.
 		\code{\link{say}}: Replacement for \code{print('abc'); flush.console}. \cr
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/adamlilith/omnibus}
+  \item Report bugs at \url{https://github.com/adamlilith/omnibus}
+}
+
+}
 \author{
 Adam B. Smith
 }
+\keyword{internal}
