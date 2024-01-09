@@ -1,6 +1,6 @@
-8a81d2ba3798ceba90c8b53997862042 *DESCRIPTION
+c605e95d799387141c2475eb599aeca8 *DESCRIPTION
 16bbcb47523f7a23d666d37a2cfa0835 *NAMESPACE
-e85744732c4ab04ab2354c0b73d070d8 *NEWS.md
+afca831d07df38c4c87914b3935305b4 *NEWS.md
 b63fc1092768132814780a89861020a4 *R/bracket.r
 d740550e8f1bed1857a60541cb3a2219 *R/capIt.r
 1daaa4a3ea3e72aa8679486c22364837 *R/combineDf.r
@@ -37,7 +37,7 @@ be30b63df33af2a1af605b4490488949 *R/naCompare.r
 ef0779e95cd019d93ebd201e84ab5b80 *R/pmatchSafe.r
 ebb296d305b582c7723d96c284936006 *R/prefix.r
 1e2ec3a871296b3793ad06293a520d93 *R/quadArea.r
-dfb393969769cc7747d24c8592aae591 *R/renumSeq.r
+fad2d755d02d7c28f52a051527817023 *R/renumSeq.r
 a5b7e9bc7d1ad7022591224f725ccc71 *R/rotateMatrix.r
 efa85434ee538e1d1be9201da9a70341 *R/roundTo.r
 4b1f9830e301cdc614de1d2bd4f60319 *R/roundedSigDigits.r
@@ -48,7 +48,7 @@ b661e7688f0b330db2e483ec40f32e55 *R/say.r
 397132527f1a8ccbb66af2f3965446a1 *R/unlistRecursive.r
 7cfe51a80520b0b8d84cce900a58070c *R/which.pmax.r
 dfb9ddb650e44d6b218accca3dc9f286 *R/yearFromDate.r
-75ff75c3dd3a9d2e3521f833fd3549b0 *README.md
+342caaf9858a7304560060c4c606eadb *README.md
 6961b326ad9cb1f9d1b6bb91d7129ecc *data/conversionFactors.rda
 8319173d85376cf56f1a25bbc2ac2dcf *data/domLeap.rda
 97230b9f6a667090fd7f356cae928ff8 *data/domNonLeap.rda
@@ -90,7 +90,7 @@ fec5cc80c894a56d332ccf642fdc0b4c *man/omnibus.Rd
 b88268299ff3af0e26f4a1c651fa24b8 *man/pmatchSafe.Rd
 1f7f0042aab2ecfa9e137e734e0a1e82 *man/prefix.Rd
 29934e6c3e051c9bc9d15f6a41e856d3 *man/quadArea.Rd
-f55642865dc1c37669669aa2f919abcd *man/renumSeq.Rd
+f471ed5b7c46fed4a1fd06ad971e4a04 *man/renumSeq.Rd
 8cf4073e1c3f2bcf0ece82cecde8f630 *man/rotateMatrix.Rd
 79b8600c49c66ba5f81e78de0234ee16 *man/roundTo.Rd
 69690b111dd9bb5a9226bdd92b401ecc *man/roundedSigDigits.Rd
