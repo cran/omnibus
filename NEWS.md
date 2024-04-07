@@ -1,3 +1,18 @@
+omnibus 1.2.12 (2024-04-06)
+===========
+o Changed arguments of `mergeLists()` to `...` so it can handle >2 lists at a time
+
+omnibus 1.2.11 (2024-04-03)
+===========
+o Added functions `compareFloat()` and aliases
+o Added function `is.wholeNUmber()`
+o Added function `forwardSlash()`
+o Fixed bug in `convertUnits()` for converting between meters and kilometers
+
+omnibus 1.2.10 (2024-03-10)
+===========
+o Internal fix to `pmatchSafe()` to avoid conflicts with other packages.
+
 omnibus 1.2.9 (2024-01-08)
 ===========
 o Made `renumSeq()` faster.

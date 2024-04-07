@@ -1,8 +1,8 @@
 Package: omnibus
 Type: Package
 Title: Helper Tools for Managing Data, Dates, Missing Values, and Text
-Version: 1.2.9
-Date: 2024-01-08
+Version: 1.2.12
+Date: 2024-04-06
 Authors@R: 
 	c(
 		person(
@@ -31,9 +31,9 @@ LazyLoad: yes
 URL: https://github.com/adamlilith/omnibus
 BugReports: https://github.com/adamlilith/omnibus
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2024-01-09 04:14:22 UTC; adam
+Packaged: 2024-04-07 16:31:40 UTC; adame
 Author: Adam B. Smith [cre, aut] (<https://orcid.org/0000-0002-6420-1659>)
 Repository: CRAN
-Date/Publication: 2024-01-09 11:40:02 UTC
+Date/Publication: 2024-04-07 17:32:58 UTC
