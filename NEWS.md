@@ -1,11 +1,13 @@
-omnibus 1.2.12 (2024-04-06)
+omnibus 1.2.12 (2024-05-16)
 ===========
 o Changed arguments of `mergeLists()` to `...` so it can handle >2 lists at a time
+o Added `appendLists()` for combining lists with elements that may have the same names
+o `roundedSigDigits()` works for numbers expressed in scientific notation
 
 omnibus 1.2.11 (2024-04-03)
 ===========
 o Added functions `compareFloat()` and aliases
-o Added function `is.wholeNUmber()`
+o Added function `is.wholeNumber()`
 o Added function `forwardSlash()`
 o Fixed bug in `convertUnits()` for converting between meters and kilometers
 
