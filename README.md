@@ -11,18 +11,22 @@
 
 R Utility Functions for the 99%
 
-<img align="right" src="omnibus.png" height="223"/>
+<a href="https://adamlilith.github.io/omnibus/"><img src="man/figures/logo.png" align="right" height="223" alt=""/></a>
 
 An assortment of helper functions for managing data (e.g., rotating values in matrices by a user-defined angle, switching from row- to column-indexing), dates (e.g., intuiting year from messy date strings), handling missing values (e.g., removing elements/rows across multiple vectors or matrices if any have an NA), text (e.g., flushing reports to the console in real-time); and combining data frames with different schema (copying, filling, or concatenating columns or applying functions before combining).
 
-## Installation ##
-As of version 1.1.2, `omnibus` is on CRAN! You can install the latest CRAN-stable version the normal way you install packages from CRAN, or the development version by using:
+## Installation
+As of version 1.1.2, `omnibus` is on CRAN! You can install the latest version on CRAN using:
 
-`remotes::install_github('adamlilith/omnibus', dependencies=TRUE)`
+`devtools::install.padckages('omnibus')`
+
+... or the development version with:
+
+`remotes::install_github('adamlilith/omnibus', dependencies = TRUE)`
 
 You may need to install the `remotes` package first.
 
-## Data manipulation ##
+## Data manipulation
 * `appendLists()`: Merge lists, appending elements with the same name.
 * `bracket()`: Find values that bracket a given number.
 * `combineDf()`: Combine data frames with different schema.
@@ -46,11 +50,12 @@ You may need to install the `remotes` package first.
 * `rowColIndexing()`: Convert between row and column indexing of a matrix.
 * `side()`: Left/right side of a data frame or matrix.
 * `stretchMinMax()`: Rescale values to a given range.
+* `runifMatrix()`: Create a matrix of random uniform values, possibly with standardization by row or column.
 * `unlistRecursive()`: For any object in a list that is also a list, unlist it.
 * `unragMatrix()`: Turn a "ragged" matrix into a "ragged" vector.
 
 
-## Dates ##
+## Dates
 * `domLeap()`: Data frame of days of each month in a leap year.
 * `domNonLeap()`: Data frame of days of each month in a non-leap year.
 * `doyLeap()`: Data frame of days of year in a leap year.
@@ -58,31 +63,32 @@ You may need to install the `remotes` package first.
 * `isLeapYear()`: Is a year a leap year?
 * `yearFromDate()`: Attempt to find the year across dates with non-standard formats.
 
-## Geometry ##
+## Geometry
 * `pairDist()`: Pairwise Euclidean distance between two sets of points.
 * `quadArea()`: Area of a quadrilateral.
 
-## Handling NAs
+## Handling `NA`s
 * `%<na%`, `%<=na%`, `%==na%`, `%!=na%`, `%>na%`, and `%>=na%`: Comparative operations (>, >=, ==, !=, <, <=) but returns `FALSE` for `NA` cases (versus `NA`).
 * `isTRUENA` and `isFALSENA()`: Logical operators robust to `NA`.
 * `naCompare()`: Comparative operations (>, >=, ==, !=, <, <=) but returns `FALSE` for `NA` cases (versus `NA`).
 * `naOmitMulti()`: Remove elements of multiple vectors if at least one element is `NA` or rows of matrices/data frames if at least one row has an `NA`.
 * `naRows()`: Indices of rows with at least one `NA`.
 
-## Data properties ##
+## Data properties
 * `countDecDigits()`: Count number of digits after a decimal.
 * `is.wholeNumber()`: Is a numeric value a whole number, to within floating-point precision?
 * `longRun()`: Longest run of a given sequence in a vector.
 * `roundedSigDigits()`: Infers the number of significant digits represented by a decimal representation of a division operation or digits place to which an integer was rounded.
 * `which.pmax` and `which.pmin()`: Combine `which.max` with `pmax` and `which.min` with `pmin` (vectorized `which.max` and `which.min`).
 
-## System ##
+## System
 * `dirCreate()`: Nicer version of `dir.create()`.
 * `eps()`: Smallest floating point value your computer can think of.
 * `listFiles()`: Nicer version of `list.files()`.
 * `memUse()`: Display largest objects in memory.
+* `screenRes()`: Get screen resolution in pixels.
 
-## Text ##
+## Text
 * `capIt()`: Capitalize first letter of a string.
 * `forwardSlash()`: Convert backslashes to forward slashes.
 * `pmatchSafe()`: Partial matching of strings with error checking.
